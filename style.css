@@ -1,0 +1,46 @@
+.ball1{
+    width:30px;
+    height:30px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    animation: example;
+    animation-duration: 1s;
+    animation-delay:0.75ms;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes example {
+    from{background-color: cadetblue;}
+    to{transform:translateY(-40px)}
+
+    
+}
+.ball2{
+    width:30px;
+    height:30px;
+    background-color:cadetblue;
+    border-radius: 50%;
+    animation: example;
+    animation-delay:1ms;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+.ball3{
+    width:30px;
+    height:30px;
+    background-color:cadetblue;
+    border-radius: 50%;
+    animation: example;
+    animation-duration: 3s;
+    animation-delay:1.5ms;
+    animation-iteration-count: infinite;
+}
+div{
+    display: inline-block;
+}
+.main{
+    padding:300px;
+}
